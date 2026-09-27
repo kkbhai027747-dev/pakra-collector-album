@@ -1,0 +1,16 @@
+{
+  "name": "pakra-collector-album",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=24.19.0"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test test/*.test.mjs",
+    "preview": "node preview.mjs",
+    "build:catalog": "node build-catalog.mjs",
+    "check:catalog": "node build-catalog.mjs --check"
+  }
+}

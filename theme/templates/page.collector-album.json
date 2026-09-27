@@ -1,0 +1,9 @@
+{
+  "sections": {
+    "main": {
+      "type": "p10-collector-album",
+      "settings": {"api_endpoint": "/apps/pakra-collection/v1/collection"}
+    }
+  },
+  "order": ["main"]
+}

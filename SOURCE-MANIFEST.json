@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "project": "collector-album",
+  "sourcePathBase": {
+    "en": "workspaceRelativePath values are relative to the original workspace root; external artifact locations are anonymized.",
+    "zh": "workspaceRelativePath 相对于原工作区根目录，工作区外部资源位置已匿名化。"
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "fe00e61f410bfff7e90ae0ac786ce6fededbf4c3f46b4efe5527b6aa928f26cc",
+      "source": {
+        "workspaceRelativePath": "apps/collector-album/.gitignore",
+        "sha256": "69c63ef8b2eeed9f00e1242fa4c52f3f25809bdd867872d87abf1a53e6f23535"
+      },
+      "change": {
+        "en": "Exclude databases, local credentials, dependencies and logs.",
+        "zh": "排除数据库、本地凭据、依赖和日志。"
+      }
+    },
+    {
+      "path": "API.md",
+      "sha256": "4b483e28e303c7e1b3a9abc24386e7261fea0ece066e16e1e6779aec73cdbc9a",
+      "source": {
+        "workspaceRelativePath": "apps/collector-album/README.md",
+        "sha256": "0327db2a08d0bcc3e39ea9edcc12e9a2e408916da1dfaba126e16480d160d01b"
+      },
+      "change": {
+        "en": "Extract and translate API contract, runtime settings and integration prerequisites.",
+        "zh": "提取并翻译接口、运行设置和接入前置条件。"
+      }
+    },
+    {
+      "path": "auth.mjs",
+      "sha256": "72ba58fe006d025b1f0ca1c939193dac27b529255572f3127f56f3c641e60e7c",
+      "source": {
+        "workspaceRelativePath": "apps/collector-album/auth.mjs",
+        "sha256": "72ba58fe006d025b1f0ca1c939193dac27b529255572f3127f56f3c641e60e7c"
+      },
+      "change": {
+        "en": "Unchanged signature and CSRF implementation.",
+        "zh": "保留原签名及 CSRF 实现。"
+      }
+    },
+    {
+      "path": "build-catalog.mjs",
+      "sha256": "ae6634b716f56e789cd5fd95f51029c6ddc57fa92cd437dc213ce53184310b72",
+      "source": {
+        "workspaceRelativePath": "apps/collector-album/build-catalog.mjs",
+        "sha256": "c7916bfcc41d791a9540599cc1fe038bd65585a2e9674d18a7a953d8b814d88d"
+      },
+      "change": {
+        "en": "Reuse pinned sibling inputs; relative provenance, deterministic output, and read-only check mode.",
+        "zh": "复用相邻固定输入，来源使用相对路径，保证输出可重复，并添加只读校验。"
+      }
+    },
+    {
+      "path": "catalog-sources.json",
+      "sha256": "c9d311a0254c4d3c4f8c266285aea993d3b796a97e1b0e6cc2834fc417e5f2d8",
+      "source": null,
+      "change": {
+        "en": "New handoff file.",
+        "zh": "本次新增交接文件。"
+      }
+    },
+    {
+      "path": "package.json",
+      "sha256": "ccdc208d18c14ee6b5cb1c03a48c628c31fc8b27aa83675cadb90f28cf37b85b",
+      "source": {
+        "workspaceRelativePath": "apps/collector-album/package.json",
+        "sha256": "c1486d7be19f992ce3f232f4aa872ea052a80f84658be2833ab7eaca97cfe3a6"
+      },
+      "change": {
+        "en": "Add preview, catalog build and catalog check commands; no runtime dependencies.",
+        "zh": "加入预览、目录生成和校验命令，无运行依赖。"
+      }
+    },
+    {
+      "path": "preview.mjs",
+      "sha256": "aeeb3a047a485009daeba23bbd040de1164b306e4d8d8c1d4b7bf57317937794",
+      "source": {
+        "externalArtifact": "collector-album-local-preview/preview.mjs",
+        "sha256": "0d3acbcc0258d4ebe2c92aefafe9c1c4c9fc252b0a64dd9f2d0d06a926bba8f8"
+      },
+      "change": {
+        "en": "Portable synthetic preview, fixed account fixtures, bounded request bodies and readable HTML template; original personal location omitted.",
+        "zh": "可移植合成预览，固定测试账号、限制请求体并整理 HTML 模板；不收录原个人路径。"
+      }
+    },
+    {
+      "path": "README.md",
+      "sha256": "4fd3d672899efbcea7138ccf9f63adcc4d0ab2b7108e95ab887b3520a4fd6505",
+      "source": {
+        "workspaceRelativePath": "apps/collector-album/README.md",
+        "sha256": "0327db2a08d0bcc3e39ea9edcc12e9a2e408916da1dfaba126e16480d160d01b"
+      },
+      "change": {
+        "en": "Rewrite as complete English then Chinese handoff with code map and verified scope.",
+        "zh": "完整英文在前、中文在后，补齐代码地图和已核实范围。"
+      }
+    },
+    {
+      "path": "server.mjs",
+      "sha256": "c7c45ce0b31fa955d52f2fcc68de433623fc745093a765f7d2c0a68c9bec7189",
+      "source": {
+        "workspaceRelativePath": "apps/collector-album/server.mjs",
+        "sha256": "b209734f1cf601aeb9aa8d87626211e692601dd8d2cb5a13dac355bfd494fb23"
+      },
+      "change": {
+        "en": "Use the packaged catalog as the module-relative default; API behavior unchanged.",
+        "zh": "默认目录改为模块相对路径，API 行为不变。"
+      }
+    },
+    {
+      "path": "store.mjs",
+      "sha256": "e4b3c25626837acbd8a9812d645f2cc9419a5636624a8e65f0b031da48eaaf75",
+      "source": {
+        "workspaceRelativePath": "apps/collector-album/store.mjs",
+        "sha256": "e4b3c25626837acbd8a9812d645f2cc9419a5636624a8e65f0b031da48eaaf75"
+      },
+      "change": {
+        "en": "Unchanged SQLite schema and transaction behavior.",
+        "zh": "保留原 SQLite 结构和事务行为。"
+      }
+    },
+    {
+      "path": "test/handoff.test.mjs",
+      "sha256": "780ad6cddc7b0522d2e8e9bf8d5b7169dfc50d05b757eff4509524938bda678c",
+      "source": null,
+      "change": {
+        "en": "New handoff file.",
+        "zh": "本次新增交接文件。"
+      }
+    },
+    {
+      "path": "test/server.test.mjs",
+      "sha256": "494a9f3b07f69540df9af121e7d143b99bdd48b428ca84b8216e8ce3809cbfea",
+      "source": {
+        "workspaceRelativePath": "apps/collector-album/test/server.test.mjs",
+        "sha256": "6af30435c28bdb6e00fce605ff5ed46c102eb927defd7d587f8b84973989bd95"
+      },
+      "change": {
+        "en": "Adjust catalog fixture path only; preserve 15 original synthetic tests.",
+        "zh": "仅调整目录路径，保留原 15 项合成测试。"
+      }
+    },
+    {
+      "path": "theme/assets/p10-collector-album.css",
+      "sha256": "7fc232e5802baf806397addb959c1627ea410c8c963cacd13a7f99f32459a3ac",
+      "source": {
+        "workspaceRelativePath": "theme/assets/p10-collector-album.css",
+        "sha256": "7fc232e5802baf806397addb959c1627ea410c8c963cacd13a7f99f32459a3ac"
+      },
+      "change": {
+        "en": "Unchanged theme module source.",
+        "zh": "保持主题模块源文件不变。"
+      }
+    },
+    {
+      "path": "theme/assets/p10-collector-album.js",
+      "sha256": "cbaecf3f3020cd6fb0dce251661b75aecdb7441925b598e8a304a0a0e4306d2b",
+      "source": {
+        "workspaceRelativePath": "theme/assets/p10-collector-album.js",
+        "sha256": "cbaecf3f3020cd6fb0dce251661b75aecdb7441925b598e8a304a0a0e4306d2b"
+      },
+      "change": {
+        "en": "Unchanged theme module source.",
+        "zh": "保持主题模块源文件不变。"
+      }
+    },
+    {
+      "path": "theme/assets/p10-collector-catalog.json",
+      "sha256": "f36839fe5f97772b5d78142c32b5f497bd45159384e7cc8e0a79c229626361e9",
+      "source": {
+        "workspaceRelativePath": "theme/assets/p10-collector-catalog.json",
+        "sha256": "48fb5141d1cc1524523dfb0765dc9b6edf619230aaf312a5ad2118cbd1a69f04"
+      },
+      "change": {
+        "en": "Regenerate provenance from shared inputs; cards, set and catalog version unchanged.",
+        "zh": "以共享输入重新生成来源信息；卡片、系列和目录版本不变。"
+      }
+    },
+    {
+      "path": "theme/locales/en.default.json",
+      "sha256": "5f82bfddbf68e17ab943b3e97763075bc046a5bcb39d06ad017d77123e1760bb",
+      "source": {
+        "workspaceRelativePath": "theme/locales/en.default.json",
+        "sha256": "9719ab9097746c2c5e550a561287521891104c41a7c81b5ac16dd7c869364596"
+      },
+      "change": {
+        "en": "Extract only the 69 p10_album.ui keys; merge fragment, never a full locale replacement.",
+        "zh": "仅提取 69 个 p10_album.ui 键，只可作为合并增量，不能替换整个语言包。"
+      }
+    },
+    {
+      "path": "theme/locales/zh-CN.json",
+      "sha256": "9583ce06ee00e4614827d0c9e94aeb0a4715096812e76c0a6591d55d575de6fd",
+      "source": {
+        "workspaceRelativePath": "theme/locales/zh-CN.json",
+        "sha256": "51b957a2e95f530f5833c085878af9a1e2cd4e4aec51aba31339390d7745473d"
+      },
+      "change": {
+        "en": "Extract only the 69 p10_album.ui keys; merge fragment, never a full locale replacement.",
+        "zh": "仅提取 69 个 p10_album.ui 键，只可作为合并增量，不能替换整个语言包。"
+      }
+    },
+    {
+      "path": "theme/sections/p10-collector-album.liquid",
+      "sha256": "32569dbc03935f3f0ce45073c5d3e61b930630151858c2e87c8b370c02f92763",
+      "source": {
+        "workspaceRelativePath": "theme/sections/p10-collector-album.liquid",
+        "sha256": "32569dbc03935f3f0ce45073c5d3e61b930630151858c2e87c8b370c02f92763"
+      },
+      "change": {
+        "en": "Unchanged theme module source.",
+        "zh": "保持主题模块源文件不变。"
+      }
+    },
+    {
+      "path": "theme/templates/page.collector-album.json",
+      "sha256": "70fee5ced73341fc147a4f463bf723840201becb7754984664da7f1126f32c33",
+      "source": {
+        "workspaceRelativePath": "theme/templates/page.collector-album.json",
+        "sha256": "70fee5ced73341fc147a4f463bf723840201becb7754984664da7f1126f32c33"
+      },
+      "change": {
+        "en": "Unchanged theme module source.",
+        "zh": "保持主题模块源文件不变。"
+      }
+    }
+  ],
+  "sharedInputs": [
+    {
+      "repositoryRelativePath": "projects/single-card-page/theme/assets/p10-single-card-catalog-20260715-v6.json",
+      "sha256": "c2e5290cb476578167d57868bcec6ac232312e354b693a31d4f9af3f532d2438",
+      "originalWorkspaceRelativePath": "output/v9-consolidation-20260917/validation-complete/assets/p10-single-card-catalog-20260715-v6.json",
+      "originalSha256": "c2e5290cb476578167d57868bcec6ac232312e354b693a31d4f9af3f532d2438"
+    },
+    {
+      "repositoryRelativePath": "projects/single-card-page/theme/assets/p10-single-card-boxes.json",
+      "sha256": "8bc40a79fe77b4e930d4e506b3d906a1fc6a936bb202abe229fded58eefb24f0",
+      "originalWorkspaceRelativePath": "output/v9-consolidation-20260917/validation-complete/assets/p10-single-card-boxes.json",
+      "originalSha256": "8e865d36da0f1580248b7ac121b9745e4f89dd1e323a552f51f5cbcf3fd3ea0f"
+    }
+  ],
+  "validation": {
+    "serviceAndHandoffTests": 17,
+    "localeKeysPerLanguage": 69,
+    "unchangedThemeSourceFiles": 4,
+    "catalogCards": 25,
+    "catalogVersion": "1-e36b3c0b30f4",
+    "sharedBoxIdentity": {
+      "en": "The shared boxes snapshot differs in full-file hash, but the selected Fun Moments Edition 8 box record is identical to the original input.",
+      "zh": "共享盒装快照的整文件哈希不同，但选中的趣影 8 盒装记录与原输入完全一致。"
+    }
+  }
+}

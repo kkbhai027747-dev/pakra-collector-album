@@ -1,0 +1,199 @@
+{{ 'p10-collector-album.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'p10-collector-album.js' | asset_url }}" defer></script>
+<section id="p10-album-{{ section.id }}" class="p10-album" data-collector-album aria-busy="true">
+  <div class="p10-album__wrap">
+    <div class="p10-album__topline">
+      <a href="{{ routes.root_url }}pages/kayou-mlp-card-catalog">← {{ 'p10_album.ui.back' | t }}</a>
+      <span class="p10-album__privacy">{{ 'p10_album.ui.private' | t }}</span>
+    </div>
+    <header class="p10-album__hero">
+      <div class="p10-album__intro">
+        <p class="p10-album__eyebrow">{{ 'p10_album.ui.eyebrow' | t }}</p>
+        <h1>{{ 'p10_album.ui.title' | t }}</h1>
+        <p class="p10-album__lede">{{ 'p10_album.ui.lede' | t }}</p>
+      </div>
+      <div class="p10-album__fan" data-album-fan aria-hidden="true"></div>
+    </header>
+    <div class="p10-album__account" data-album-account data-state="loading" role="status">
+      <span data-album-account-text>{{ 'p10_album.ui.account_loading' | t }}</span>
+      <a class="p10-album__button" href="{{ routes.storefront_login_url }}" data-album-login hidden>{{ 'p10_album.ui.login' | t }}</a>
+      <button type="button" class="p10-album__button p10-album__button--secondary" data-album-retry hidden>{{ 'p10_album.ui.retry' | t }}</button>
+    </div>
+    <div data-album-content hidden>
+      <section class="p10-album__progress-panel" aria-label="{{ 'p10_album.ui.progress_label' | t | escape }}">
+        <div>
+          <div class="p10-album__progress-heading">
+            <h2 data-album-progress-title></h2><strong data-album-progress-value></strong>
+          </div>
+          <div class="p10-album__progress" data-album-progress-track role="progressbar" aria-label="{{ 'p10_album.ui.progress_label' | t | escape }}" aria-valuemin="0" aria-valuenow="0" aria-valuemax="25"><span data-album-progress-bar></span></div>
+          <p data-album-milestone></p>
+        </div>
+        <div class="p10-album__stats">
+          <div class="p10-album__stat"><strong data-album-missing-count>0</strong><small>{{ 'p10_album.ui.missing' | t }}</small></div>
+          <div class="p10-album__stat"><strong data-album-wishlist-count>0</strong><small>{{ 'p10_album.ui.wishlist' | t }}</small></div>
+          <div class="p10-album__stat"><strong data-album-duplicate-count>0</strong><small>{{ 'p10_album.ui.duplicates' | t }}</small></div>
+        </div>
+      </section>
+      <div class="p10-album__setline">
+        <div><p class="p10-album__eyebrow">{{ 'p10_album.ui.set_label' | t }}</p><h2 data-album-set-title></h2><p>{{ 'p10_album.ui.set_meta' | t }}</p></div>
+      </div>
+      <p class="p10-album__coverage" data-album-coverage></p>
+      <div class="p10-album__toolbar">
+        <label class="p10-album__search"><span>{{ 'p10_album.ui.search' | t }}</span><input type="search" data-album-search placeholder="{{ 'p10_album.ui.search_placeholder' | t | escape }}" autocomplete="off"></label>
+        <label><span>{{ 'p10_album.ui.rarity' | t }}</span><select data-album-rarity><option value="">{{ 'p10_album.ui.all_rarities' | t }}</option></select></label>
+        <button class="p10-album__button p10-album__button--secondary" type="button" data-album-batch data-album-write aria-pressed="false" disabled>{{ 'p10_album.ui.batch' | t }}</button>
+      </div>
+      <div class="p10-album__tabs" role="group" aria-label="{{ 'p10_album.ui.status_label' | t | escape }}">
+        <button type="button" data-album-tab="all" aria-pressed="true">{{ 'p10_album.ui.tab_all' | t }}</button>
+        <button type="button" data-album-tab="owned" aria-pressed="false">{{ 'p10_album.ui.tab_owned' | t }}</button>
+        <button type="button" data-album-tab="missing" aria-pressed="false">{{ 'p10_album.ui.tab_missing' | t }}</button>
+        <button type="button" data-album-tab="wishlist" aria-pressed="false">{{ 'p10_album.ui.tab_wishlist' | t }}</button>
+        <button type="button" data-album-tab="unrecorded" aria-pressed="false">{{ 'p10_album.ui.tab_unrecorded' | t }}</button>
+        <button type="button" data-album-tab="previously_owned" aria-pressed="false">{{ 'p10_album.ui.tab_previously_owned' | t }}</button>
+      </div>
+      <div class="p10-album__batchbar" data-album-batchbar hidden>
+        <label><input type="checkbox" data-album-select-visible data-album-write> {{ 'p10_album.ui.select_visible' | t }}</label>
+        <span data-album-selection-count></span>
+        <select data-album-batch-status data-album-write aria-label="{{ 'p10_album.ui.status_label' | t | escape }}">
+          <option value="owned">{{ 'p10_album.ui.status_owned' | t }}</option>
+          <option value="missing">{{ 'p10_album.ui.status_missing' | t }}</option>
+          <option value="unrecorded">{{ 'p10_album.ui.status_unrecorded' | t }}</option>
+          <option value="previously_owned">{{ 'p10_album.ui.status_previously_owned' | t }}</option>
+        </select>
+        <button type="button" class="p10-album__button" data-album-apply data-album-write>{{ 'p10_album.ui.apply' | t }}</button>
+        <button type="button" class="p10-album__button p10-album__button--quiet" data-album-cancel-batch>{{ 'p10_album.ui.cancel' | t }}</button>
+      </div>
+      <div class="p10-album__resultsline"><span data-album-results aria-live="polite"></span></div>
+      <div class="p10-album__grid" data-album-grid></div>
+      <div class="p10-album__empty" data-album-empty hidden><p>{{ 'p10_album.ui.empty' | t }}</p><button type="button" class="p10-album__button p10-album__button--secondary" data-album-clear>{{ 'p10_album.ui.clear' | t }}</button></div>
+      <footer class="p10-album__footer"><p>{{ 'p10_album.ui.footer' | t }}</p><p>{{ 'p10_album.ui.self_report' | t }}</p></footer>
+    </div>
+    <p class="p10-album__toast" data-album-message role="status" aria-live="polite"></p>
+    <p data-album-fallback hidden>{{ 'p10_album.ui.catalog_error' | t }}</p>
+    <noscript><p>{{ 'p10_album.ui.noscript' | t }}</p></noscript>
+  </div>
+  <dialog class="p10-album__dialog" data-album-dialog aria-labelledby="album-card-{{ section.id }}">
+    <button class="p10-album__dialog-close" type="button" data-album-close aria-label="{{ 'p10_album.ui.close' | t | escape }}">×</button>
+    <div class="p10-album__dialog-grid">
+      <div class="p10-album__dialog-image"><img data-album-dialog-image width="300" height="420" alt=""></div>
+      <div>
+        <p class="p10-album__eyebrow" data-album-dialog-rarity></p>
+        <h2 id="album-card-{{ section.id }}" data-album-dialog-code></h2>
+        <h3>{{ 'p10_album.ui.record' | t }}</h3>
+        <p class="p10-album__notice" data-album-dialog-login-notice>{{ 'p10_album.ui.dialog_login_notice' | t }}</p>
+        <p class="p10-album__notice" data-album-dialog-message role="status" aria-live="polite"></p>
+        <form class="p10-album__form" data-album-form>
+          <label><span>{{ 'p10_album.ui.status_label' | t }}</span><select data-album-status-input data-album-write>
+            <option value="unrecorded">{{ 'p10_album.ui.status_unrecorded' | t }}</option>
+            <option value="missing">{{ 'p10_album.ui.status_missing' | t }}</option>
+            <option value="owned">{{ 'p10_album.ui.status_owned' | t }}</option>
+            <option value="previously_owned">{{ 'p10_album.ui.status_previously_owned' | t }}</option>
+          </select></label>
+          <label data-album-quantity-row hidden><span>{{ 'p10_album.ui.quantity' | t }}</span><input type="number" min="1" max="999" step="1" value="1" required data-album-quantity data-album-write></label>
+          <label><input type="checkbox" data-album-wishlist-input data-album-write> {{ 'p10_album.ui.wishlist_label' | t }}</label>
+          <button type="submit" class="p10-album__button" data-album-save data-album-write>{{ 'p10_album.ui.save' | t }}</button>
+        </form>
+        <p class="p10-album__notice">{{ 'p10_album.ui.self_report' | t }}</p>
+        <div class="p10-album__shop-actions">
+          <a class="p10-album__button p10-album__button--secondary" data-album-buy>{{ 'p10_album.ui.buy' | t }} ↗</a>
+          <a class="p10-album__button p10-album__button--quiet" data-album-box>{{ 'p10_album.ui.box' | t }} ↗</a>
+        </div>
+        <p class="p10-album__notice">{{ 'p10_album.ui.shop_note' | t }}</p>
+      </div>
+    </div>
+  </dialog>
+  <script type="application/json" data-album-config>
+  {
+    "catalogUrl": {{ 'p10-collector-catalog.json' | asset_url | json }},
+    "endpoint": {{ section.settings.api_endpoint | json }},
+    "storeRoot": {{ routes.root_url | json }},
+    "locale": {{ request.locale.iso_code | json }},
+    "strings": {
+      "eyebrow": {{ 'p10_album.ui.eyebrow' | t | json }},
+      "title": {{ 'p10_album.ui.title' | t | json }},
+      "lede": {{ 'p10_album.ui.lede' | t | json }},
+      "back": {{ 'p10_album.ui.back' | t | json }},
+      "private": {{ 'p10_album.ui.private' | t | json }},
+      "set_label": {{ 'p10_album.ui.set_label' | t | json }},
+      "set_meta": {{ 'p10_album.ui.set_meta' | t | json }},
+      "account_loading": {{ 'p10_album.ui.account_loading' | t | json }},
+      "account_ready": {{ 'p10_album.ui.account_ready' | t | json }},
+      "account_guest": {{ 'p10_album.ui.account_guest' | t | json }},
+      "account_error": {{ 'p10_album.ui.account_error' | t | json }},
+      "login": {{ 'p10_album.ui.login' | t | json }},
+      "retry": {{ 'p10_album.ui.retry' | t | json }},
+      "progress_count": {{ 'p10_album.ui.progress_count' | t | json }},
+      "progress_label": {{ 'p10_album.ui.progress_label' | t | json }},
+      "coverage": {{ 'p10_album.ui.coverage' | t | json }},
+      "missing": {{ 'p10_album.ui.missing' | t | json }},
+      "wishlist": {{ 'p10_album.ui.wishlist' | t | json }},
+      "duplicates": {{ 'p10_album.ui.duplicates' | t | json }},
+      "milestone_empty": {{ 'p10_album.ui.milestone_empty' | t | json }},
+      "milestone_started": {{ 'p10_album.ui.milestone_started' | t | json }},
+      "milestone_half": {{ 'p10_album.ui.milestone_half' | t | json }},
+      "milestone_complete": {{ 'p10_album.ui.milestone_complete' | t | json }},
+      "search": {{ 'p10_album.ui.search' | t | json }},
+      "search_placeholder": {{ 'p10_album.ui.search_placeholder' | t | json }},
+      "rarity": {{ 'p10_album.ui.rarity' | t | json }},
+      "all_rarities": {{ 'p10_album.ui.all_rarities' | t | json }},
+      "batch": {{ 'p10_album.ui.batch' | t | json }},
+      "tab_all": {{ 'p10_album.ui.tab_all' | t | json }},
+      "tab_owned": {{ 'p10_album.ui.tab_owned' | t | json }},
+      "tab_missing": {{ 'p10_album.ui.tab_missing' | t | json }},
+      "tab_wishlist": {{ 'p10_album.ui.tab_wishlist' | t | json }},
+      "tab_unrecorded": {{ 'p10_album.ui.tab_unrecorded' | t | json }},
+      "tab_previously_owned": {{ 'p10_album.ui.tab_previously_owned' | t | json }},
+      "select_visible": {{ 'p10_album.ui.select_visible' | t | json }},
+      "selection_count": {{ 'p10_album.ui.selection_count' | t | json }},
+      "apply": {{ 'p10_album.ui.apply' | t | json }},
+      "cancel": {{ 'p10_album.ui.cancel' | t | json }},
+      "results": {{ 'p10_album.ui.results' | t | json }},
+      "empty": {{ 'p10_album.ui.empty' | t | json }},
+      "clear": {{ 'p10_album.ui.clear' | t | json }},
+      "status_unrecorded": {{ 'p10_album.ui.status_unrecorded' | t | json }},
+      "status_missing": {{ 'p10_album.ui.status_missing' | t | json }},
+      "status_owned": {{ 'p10_album.ui.status_owned' | t | json }},
+      "status_previously_owned": {{ 'p10_album.ui.status_previously_owned' | t | json }},
+      "open_card": {{ 'p10_album.ui.open_card' | t | json }},
+      "select_card": {{ 'p10_album.ui.select_card' | t | json }},
+      "add_wishlist": {{ 'p10_album.ui.add_wishlist' | t | json }},
+      "remove_wishlist": {{ 'p10_album.ui.remove_wishlist' | t | json }},
+      "close": {{ 'p10_album.ui.close' | t | json }},
+      "record": {{ 'p10_album.ui.record' | t | json }},
+      "status_label": {{ 'p10_album.ui.status_label' | t | json }},
+      "quantity": {{ 'p10_album.ui.quantity' | t | json }},
+      "wishlist_label": {{ 'p10_album.ui.wishlist_label' | t | json }},
+      "save": {{ 'p10_album.ui.save' | t | json }},
+      "saving": {{ 'p10_album.ui.saving' | t | json }},
+      "saved": {{ 'p10_album.ui.saved' | t | json }},
+      "session_changed": {{ 'p10_album.ui.session_changed' | t | json }},
+      "conflict": {{ 'p10_album.ui.conflict' | t | json }},
+      "rate_limit": {{ 'p10_album.ui.rate_limit' | t | json }},
+      "save_error": {{ 'p10_album.ui.save_error' | t | json }},
+      "self_report": {{ 'p10_album.ui.self_report' | t | json }},
+      "buy": {{ 'p10_album.ui.buy' | t | json }},
+      "box": {{ 'p10_album.ui.box' | t | json }},
+      "shop_note": {{ 'p10_album.ui.shop_note' | t | json }},
+      "dialog_login_notice": {{ 'p10_album.ui.dialog_login_notice' | t | json }},
+      "footer": {{ 'p10_album.ui.footer' | t | json }},
+      "catalog_error": {{ 'p10_album.ui.catalog_error' | t | json }},
+      "noscript": {{ 'p10_album.ui.noscript' | t | json }}
+    }
+  }
+  </script>
+</section>
+{% schema %}
+{
+  "name": "Collector album",
+  "settings": [
+    {
+      "type": "text",
+      "id": "api_endpoint",
+      "label": "Collection app endpoint",
+      "default": "/apps/pakra-collection/v1/collection",
+      "info": "Requires the collection service and a configured Shopify app proxy."
+    }
+  ],
+  "presets": [{"name": "Collector album"}]
+}
+{% endschema %}

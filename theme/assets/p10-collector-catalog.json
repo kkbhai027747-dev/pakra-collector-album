@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "id": "mlp-zh-cn-fun-moments-8-cr",
+  "catalogVersion": "1-e36b3c0b30f4",
+  "set": {
+    "id": "mlp-zh-cn-fun-moments-8-cr",
+    "ip": "My Little Pony",
+    "language": "zh-CN",
+    "edition": "fun-moments",
+    "wave": "t2w8",
+    "title": {
+      "en": "Fun Moments: Edition 8 · CR & Hidden CR",
+      "zh": "趣影8 · CR 与隐藏 CR"
+    },
+    "coverage": "partial",
+    "count": 25,
+    "boxLink": "/products/kayou-mlp-fun-moments-edition-t2-8-card-box"
+  },
+  "cards": [
+    {
+      "id": "mlp:zh-CN:fun-moments:t2w8:QY08-CR-001",
+      "code": "QY08-CR-001",
+      "rarity": "CR",
+      "rarityKey": "cr",
+      "image": "https://cdn.shopify.com/s/files/1/0746/1014/7516/files/QY08-CR-001L5.png?v=1782123315",
+      "imageAlt": "QY08-CR-001L5 - Twilight Sparkle KAYOU MLP single card",
+      "productHandle": "kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-cr-single-cards",
+      "variantId": "47097671647420",
+      "productLink": "/products/kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-cr-single-cards?variant=47097671647420"
+    },
+    {
+      "id": "mlp:zh-CN:fun-moments:t2w8:QY08-CR-002",
+      "code": "QY08-CR-002",
+      "rarity": "CR",
+      "rarityKey": "cr",
+      "image": "https://cdn.shopify.com/s/files/1/0746/1014/7516/files/QY08-CR-002L5.png?v=1782123321",
+      "imageAlt": "QY08-CR-002L5 - Pinkie Pie KAYOU MLP single card",
+      "productHandle": "kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-cr-single-cards",
+      "variantId": "47097863766204",
+      "productLink": "/products/kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-cr-single-cards?variant=47097863766204"
+    },
+    {
+      "id": "mlp:zh-CN:fun-moments:t2w8:QY08-CR-003",
+      "code": "QY08-CR-003",
+      "rarity": "CR",
+      "rarityKey": "cr",
+      "image": "https://cdn.shopify.com/s/files/1/0746/1014/7516/files/QY08-CR-003L5.png?v=1782123330",
+      "imageAlt": "QY08-CR-003L5 - Rainbow Dash KAYOU MLP single card",
+      "productHandle": "kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-cr-single-cards",
+      "variantId": "47097863798972",
+      "productLink": "/products/kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-cr-single-cards?variant=47097863798972"
+    },
+    {
+      "id": "mlp:zh-CN:fun-moments:t2w8:QY08-CR-004",
+      "code": "QY08-CR-004",
+      "rarity": "CR",
+      "rarityKey": "cr",
+      "image": "https://cdn.shopify.com/s/files/1/0746/1014/7516/files/QY08-CR-004L5.png?v=1782123340",
+      "imageAlt": "QY08-CR-004L5 - Rarity KAYOU MLP single card",
+      "productHandle": "kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-cr-single-cards",
+      "variantId": "47097863831740",
+      "productLink": "/products/kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-cr-single-cards?variant=47097863831740"
+    },
+    {
+      "id": "mlp:zh-CN:fun-moments:t2w8:QY08-CR-005",
+      "code": "QY08-CR-005",
+      "rarity": "CR",
+      "rarityKey": "cr",
+      "image": "https://cdn.shopify.com/s/files/1/0746/1014/7516/files/QY08-CR-005L5.png?v=1782123345",
+      "imageAlt": "QY08-CR-005L5 - Fluttershy KAYOU MLP single card",
+      "productHandle": "kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-cr-single-cards",
+      "variantId": "47097863864508",
+      "productLink": "/products/kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-cr-single-cards?variant=47097863864508"
+    },
+    {
+      "id": "mlp:zh-CN:fun-moments:t2w8:QY08-CR-006",
+      "code": "QY08-CR-006",
+      "rarity": "CR",
+      "rarityKey": "cr",
+      "image": "https://cdn.shopify.com/s/files/1/0746/1014/7516/files/QY08-CR-006L5.png?v=1782123351",
+      "imageAlt": "QY08-CR-006L5 - Applejack KAYOU MLP single card",
+      "productHandle": "kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-cr-single-cards",
+      "variantId": "47097863897276",
+      "productLink": "/products/kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-cr-single-cards?variant=47097863897276"
+    },
+    {
+      "id": "mlp:zh-CN:fun-moments:t2w8:QY08-CR-007",
+      "code": "QY08-CR-007",
+      "rarity": "CR",
+      "rarityKey": "cr",
+      "image": "https://cdn.shopify.com/s/files/1/0746/1014/7516/files/QY08-CR-007L5.png?v=1782123363",
+      "imageAlt": "QY08-CR-007L5 - Discord KAYOU MLP single card",
+      "productHandle": "kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-cr-single-cards",
+      "variantId": "47097863930044",
+      "productLink": "/products/kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-cr-single-cards?variant=47097863930044"
+    },
+    {
+      "id": "mlp:zh-CN:fun-moments:t2w8:QY08-CR-008",
+      "code": "QY08-CR-008",
+      "rarity": "CR",
+      "rarityKey": "cr",
+      "image": "https://cdn.shopify.com/s/files/1/0746/1014/7516/files/QY08-CR-008L5.png?v=1782123373",
+      "imageAlt": "QY08-CR-008L5 - Queen Chrysalis KAYOU MLP single card",
+      "productHandle": "kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-cr-single-cards",
+      "variantId": "47097863962812",
+      "productLink": "/products/kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-cr-single-cards?variant=47097863962812"
+    },
+    {
+      "id": "mlp:zh-CN:fun-moments:t2w8:QY08-CR-009",
+      "code": "QY08-CR-009",
+      "rarity": "CR",
+      "rarityKey": "cr",
+      "image": "https://cdn.shopify.com/s/files/1/0746/1014/7516/files/QY08-CR-009L5.png?v=1782123378",
+      "imageAlt": "QY08-CR-009L5 - Lord Tirek KAYOU MLP single card",
+      "productHandle": "kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-cr-single-cards",
+      "variantId": "47097863995580",
+      "productLink": "/products/kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-cr-single-cards?variant=47097863995580"
+    },
+    {
+      "id": "mlp:zh-CN:fun-moments:t2w8:QY08-CR-010",
+      "code": "QY08-CR-010",
+      "rarity": "CR",
+      "rarityKey": "cr",
+      "image": "https://cdn.shopify.com/s/files/1/0746/1014/7516/files/QY08-CR-010L5.png?v=1782123385",
+      "imageAlt": "QY08-CR-010L5 - Applejack KAYOU MLP single card",
+      "productHandle": "kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-cr-single-cards",
+      "variantId": "47097864028348",
+      "productLink": "/products/kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-cr-single-cards?variant=47097864028348"
+    },
+    {
+      "id": "mlp:zh-CN:fun-moments:t2w8:QY08-CR-011",
+      "code": "QY08-CR-011",
+      "rarity": "CR",
+      "rarityKey": "cr",
+      "image": "https://cdn.shopify.com/s/files/1/0746/1014/7516/files/QY08-CR-011L5.png?v=1782123391",
+      "imageAlt": "QY08-CR-011L5 - Twilight Sparkle & Rarity Champion KAYOU MLP single card",
+      "productHandle": "kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-cr-single-cards",
+      "variantId": "47097864061116",
+      "productLink": "/products/kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-cr-single-cards?variant=47097864061116"
+    },
+    {
+      "id": "mlp:zh-CN:fun-moments:t2w8:QY08-CR-012",
+      "code": "QY08-CR-012",
+      "rarity": "CR",
+      "rarityKey": "cr",
+      "image": "https://cdn.shopify.com/s/files/1/0746/1014/7516/files/QY08-CR-012L5.png?v=1782123397",
+      "imageAlt": "QY08-CR-012L5 - Fluttershy & Pinkie Pie KAYOU MLP single card",
+      "productHandle": "kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-cr-single-cards",
+      "variantId": "47097864093884",
+      "productLink": "/products/kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-cr-single-cards?variant=47097864093884"
+    },
+    {
+      "id": "mlp:zh-CN:fun-moments:t2w8:QY08-CR-013",
+      "code": "QY08-CR-013",
+      "rarity": "CR",
+      "rarityKey": "cr",
+      "image": "https://cdn.shopify.com/s/files/1/0746/1014/7516/files/QY08-CR-013L5.png?v=1782123403",
+      "imageAlt": "QY08-CR-013L5 - Mane Six Team KAYOU MLP single card",
+      "productHandle": "kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-cr-single-cards",
+      "variantId": "47097864126652",
+      "productLink": "/products/kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-cr-single-cards?variant=47097864126652"
+    },
+    {
+      "id": "mlp:zh-CN:fun-moments:t2w8:QY08-◇CR-001",
+      "code": "QY08-◇CR-001",
+      "rarity": "Hidden CR",
+      "rarityKey": "hidden-cr",
+      "image": "https://cdn.shopify.com/s/files/1/0746/1014/7516/files/QY08-_CR-001L5.png?v=1782123500",
+      "imageAlt": "QY08-◇CR-001L5 - Twilight Sparkle KAYOU MLP single card",
+      "productHandle": "kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-hidden-diamond-cr-single-cards",
+      "variantId": "47097672368316",
+      "productLink": "/products/kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-hidden-diamond-cr-single-cards?variant=47097672368316"
+    },
+    {
+      "id": "mlp:zh-CN:fun-moments:t2w8:QY08-◇CR-002",
+      "code": "QY08-◇CR-002",
+      "rarity": "Hidden CR",
+      "rarityKey": "hidden-cr",
+      "image": "https://cdn.shopify.com/s/files/1/0746/1014/7516/files/QY08-_CR-002L5.png?v=1782123507",
+      "imageAlt": "QY08-◇CR-002L5 - Pinkie Pie KAYOU MLP single card",
+      "productHandle": "kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-hidden-diamond-cr-single-cards",
+      "variantId": "47097868746940",
+      "productLink": "/products/kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-hidden-diamond-cr-single-cards?variant=47097868746940"
+    },
+    {
+      "id": "mlp:zh-CN:fun-moments:t2w8:QY08-◇CR-003",
+      "code": "QY08-◇CR-003",
+      "rarity": "Hidden CR",
+      "rarityKey": "hidden-cr",
+      "image": "https://cdn.shopify.com/s/files/1/0746/1014/7516/files/QY08-_CR-003L5.png?v=1782123513",
+      "imageAlt": "QY08-◇CR-003L5 - Rainbow Dash KAYOU MLP single card",
+      "productHandle": "kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-hidden-diamond-cr-single-cards",
+      "variantId": "47097868779708",
+      "productLink": "/products/kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-hidden-diamond-cr-single-cards?variant=47097868779708"
+    },
+    {
+      "id": "mlp:zh-CN:fun-moments:t2w8:QY08-◇CR-004",
+      "code": "QY08-◇CR-004",
+      "rarity": "Hidden CR",
+      "rarityKey": "hidden-cr",
+      "image": "https://cdn.shopify.com/s/files/1/0746/1014/7516/files/QY08-_CR-004L5.png?v=1782123519",
+      "imageAlt": "QY08-◇CR-004L5 - Rarity KAYOU MLP single card",
+      "productHandle": "kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-hidden-diamond-cr-single-cards",
+      "variantId": "47097868812476",
+      "productLink": "/products/kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-hidden-diamond-cr-single-cards?variant=47097868812476"
+    },
+    {
+      "id": "mlp:zh-CN:fun-moments:t2w8:QY08-◇CR-005",
+      "code": "QY08-◇CR-005",
+      "rarity": "Hidden CR",
+      "rarityKey": "hidden-cr",
+      "image": "https://cdn.shopify.com/s/files/1/0746/1014/7516/files/QY08-_CR-005L5.png?v=1782123525",
+      "imageAlt": "QY08-◇CR-005L5 - Fluttershy KAYOU MLP single card",
+      "productHandle": "kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-hidden-diamond-cr-single-cards",
+      "variantId": "47097868845244",
+      "productLink": "/products/kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-hidden-diamond-cr-single-cards?variant=47097868845244"
+    },
+    {
+      "id": "mlp:zh-CN:fun-moments:t2w8:QY08-◇CR-006",
+      "code": "QY08-◇CR-006",
+      "rarity": "Hidden CR",
+      "rarityKey": "hidden-cr",
+      "image": "https://cdn.shopify.com/s/files/1/0746/1014/7516/files/QY08-_CR-006L5.png?v=1782123532",
+      "imageAlt": "QY08-◇CR-006L5 - Applejack KAYOU MLP single card",
+      "productHandle": "kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-hidden-diamond-cr-single-cards",
+      "variantId": "47097868878012",
+      "productLink": "/products/kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-hidden-diamond-cr-single-cards?variant=47097868878012"
+    },
+    {
+      "id": "mlp:zh-CN:fun-moments:t2w8:QY08-◇CR-007",
+      "code": "QY08-◇CR-007",
+      "rarity": "Hidden CR",
+      "rarityKey": "hidden-cr",
+      "image": "https://cdn.shopify.com/s/files/1/0746/1014/7516/files/QY08-_CR-007L5.png?v=1782123539",
+      "imageAlt": "QY08-◇CR-007L5 - Spike KAYOU MLP single card",
+      "productHandle": "kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-hidden-diamond-cr-single-cards",
+      "variantId": "47097868910780",
+      "productLink": "/products/kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-hidden-diamond-cr-single-cards?variant=47097868910780"
+    },
+    {
+      "id": "mlp:zh-CN:fun-moments:t2w8:QY08-◇CR-008",
+      "code": "QY08-◇CR-008",
+      "rarity": "Hidden CR",
+      "rarityKey": "hidden-cr",
+      "image": "https://cdn.shopify.com/s/files/1/0746/1014/7516/files/QY08-_CR-008L5.png?v=1782123560",
+      "imageAlt": "QY08-◇CR-008L5 - Apple Bloom KAYOU MLP single card",
+      "productHandle": "kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-hidden-diamond-cr-single-cards",
+      "variantId": "47097868943548",
+      "productLink": "/products/kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-hidden-diamond-cr-single-cards?variant=47097868943548"
+    },
+    {
+      "id": "mlp:zh-CN:fun-moments:t2w8:QY08-◇CR-009",
+      "code": "QY08-◇CR-009",
+      "rarity": "Hidden CR",
+      "rarityKey": "hidden-cr",
+      "image": "https://cdn.shopify.com/s/files/1/0746/1014/7516/files/QY08-_CR-009L5.png?v=1782123567",
+      "imageAlt": "QY08-◇CR-009L5 - Scootaloo KAYOU MLP single card",
+      "productHandle": "kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-hidden-diamond-cr-single-cards",
+      "variantId": "47097868976316",
+      "productLink": "/products/kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-hidden-diamond-cr-single-cards?variant=47097868976316"
+    },
+    {
+      "id": "mlp:zh-CN:fun-moments:t2w8:QY08-◇CR-010",
+      "code": "QY08-◇CR-010",
+      "rarity": "Hidden CR",
+      "rarityKey": "hidden-cr",
+      "image": "https://cdn.shopify.com/s/files/1/0746/1014/7516/files/QY08-_CR-010L5.png?v=1782123573",
+      "imageAlt": "QY08-◇CR-010L5 - Sweetie Belle KAYOU MLP single card",
+      "productHandle": "kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-hidden-diamond-cr-single-cards",
+      "variantId": "47097869009084",
+      "productLink": "/products/kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-hidden-diamond-cr-single-cards?variant=47097869009084"
+    },
+    {
+      "id": "mlp:zh-CN:fun-moments:t2w8:QY08-◇CR-011",
+      "code": "QY08-◇CR-011",
+      "rarity": "Hidden CR",
+      "rarityKey": "hidden-cr",
+      "image": "https://cdn.shopify.com/s/files/1/0746/1014/7516/files/QY08-_CR-011L5.png?v=1782123579",
+      "imageAlt": "QY08-◇CR-011L5 - Princess Celestia KAYOU MLP single card",
+      "productHandle": "kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-hidden-diamond-cr-single-cards",
+      "variantId": "47097869041852",
+      "productLink": "/products/kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-hidden-diamond-cr-single-cards?variant=47097869041852"
+    },
+    {
+      "id": "mlp:zh-CN:fun-moments:t2w8:QY08-◇CR-012",
+      "code": "QY08-◇CR-012",
+      "rarity": "Hidden CR",
+      "rarityKey": "hidden-cr",
+      "image": "https://cdn.shopify.com/s/files/1/0746/1014/7516/files/QY08-_CR-012L5.png?v=1782123588",
+      "imageAlt": "QY08-◇CR-012L5 - Princess Luna KAYOU MLP single card",
+      "productHandle": "kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-hidden-diamond-cr-single-cards",
+      "variantId": "47097869074620",
+      "productLink": "/products/kayou-mlp-fun-moments-edition-chinese-series-8-t2w8-qy08-hidden-diamond-cr-single-cards?variant=47097869074620"
+    }
+  ],
+  "source": {
+    "catalog": {
+      "path": "fixtures/catalog-source/p10-single-card-catalog-20260715-v6.json",
+      "sha256": "c2e5290cb476578167d57868bcec6ac232312e354b693a31d4f9af3f532d2438",
+      "generatedAt": "2026-08-28T08:50:35.550Z"
+    },
+    "boxes": {
+      "path": "fixtures/catalog-source/p10-single-card-boxes.json",
+      "sha256": "8bc40a79fe77b4e930d4e506b3d906a1fc6a936bb202abe229fded58eefb24f0"
+    },
+    "scope": "My Little Pony, Chinese Fun Moments Edition 8: 13 CR and 12 Hidden CR card kinds only. Partial catalog; not a complete edition checklist. Product links and images use the saved storefront catalog. No prices or stock claims."
+  }
+}
